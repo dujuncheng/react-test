@@ -48,13 +48,6 @@ ReactDOM.render(
       disabledTime={disabledDateTime}
       showTime
     />
-    <br />
-    <RangePicker
-      disabledDate={disabledDate}
-      disabledTime={disabledRangeTime}
-      showTime={{ hideDisabledOptions: true }}
-      format="YYYY-MM-DD HH:mm:ss"
-    />
   </div>,
   document.getElementById('root')
 );
